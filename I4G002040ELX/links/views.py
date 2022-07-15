@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from .models import Link
-from .serizliers import LinkSerializer
+from .serializers import LinkSerializer
 from rest_framework import generics
 from rest_framework.permissions import IsAdminUser
 
